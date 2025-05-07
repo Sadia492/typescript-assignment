@@ -58,12 +58,6 @@ function getMostExpensiveProduct(products: Product[]): Product | null {
   return products.sort((a, b) => b.price - a.price)[0];
 }
 
-const products = [
-  { name: "Pen", price: 10 },
-  { name: "Notebook", price: 25 },
-  { name: "Bag", price: 50 },
-];
-
 enum Day {
   Monday,
   Tuesday,
